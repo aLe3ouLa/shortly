@@ -17,6 +17,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     return (
       <button
         ref={ref}
+        style={{ zIndex: '3' }}
         className={`cursor-pointer px-4 py-2 ${
           type === ButtonType.PRIMARY ? 'bg-[#29C7C7]' : 'bg-transparent'
         } ${type === ButtonType.PRIMARY ? 'text-white' : 'text-black'}
