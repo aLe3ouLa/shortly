@@ -5,14 +5,14 @@ import DetailRecords from '../assets/icon-detailed-records.svg';
 import FullyCustomizable from '../assets/icon-fully-customizable.svg';
 
 export const Statistics = () => (
-  <section className="mt-28">
+  <section className="bg-[#efefef] py-28 w-full">
     <h2 className="font-bold text-2xl">Advanced Statistics</h2>
     <p className="text-sm text-[#9E9AA7] line">
       Track how your links are performing across the web with our advanced
       statistics dashboard
     </p>
 
-    <div className="flex justify-between items-start mt-20">
+    <div className="flex justify-around items-start mt-20">
       <Card
         icon={DetailRecords}
         title="Detailed Records"

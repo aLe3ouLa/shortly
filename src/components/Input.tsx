@@ -3,13 +3,13 @@ import Decorator from '../assets/bg-shorten-desktop.svg';
 
 export const Input = () => (
   <div
-    className="bg-[#3B3054] px-2 py-3 h-44 rounded-md mt-10 relative"
+    className="bg-[#3B3054] px-2 py-3 h-44 rounded-md mt-10 relative w-3/4"
     style={{ zIndex: '1' }}
   >
     <img
       src={Decorator}
       alt=""
-      className="absolute top-0 left-0 w-full h-full"
+      className="absolute top-0 left-0 w-full h-full rounded-md"
       style={{ zIndex: '2' }}
     />
     <div className="flex items-center justify-center h-full">

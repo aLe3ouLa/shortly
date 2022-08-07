@@ -22,7 +22,7 @@
 
   color-scheme: light dark;
   color: var(--color-dark-violet);
-  background-color: white;
+  background-color: #efefef;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

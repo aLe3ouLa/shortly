@@ -6,7 +6,7 @@ export const Navbar = () => {
   const ref = React.createRef<HTMLButtonElement>();
 
   return (
-    <nav className="flex items-center justify-between">
+    <nav className="flex items-center justify-between px-40 py-4 w-full">
       <div className="flex items-center">
         <img src={Logo} alt="Shortly logo" className="pr-12" />
         <ul className="flex list-none">

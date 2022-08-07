@@ -6,7 +6,7 @@ import { Statistics } from './components/Statistics';
 
 function App() {
   return (
-    <div>
+    <div className="grid place-items-center">
       <Navbar />
       <Hero />
       <Input />
