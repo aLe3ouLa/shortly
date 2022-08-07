@@ -5,7 +5,7 @@ interface LinkProps {
 
 export const Link = ({ original, short_link }: LinkProps) => {
   return (
-    <div className="flex items-center justify-between px-4 py-2 bg-white rounded-md mb-4">
+    <div className="flex items-center justify-between px-4 py-2 bg-white rounded-md mb-4 w-3/4">
       <p className="text-sm">{original}</p>
       <div className="flex items-center">
         <p className="font-bold text-sm text-[#29C7C7] mr-4">{short_link}</p>{' '}
