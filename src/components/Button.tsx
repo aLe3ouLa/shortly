@@ -34,6 +34,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         ${rounded ? 'rounded-full' : 'rounded-md'}
         hover:bg-[#29C7C7]/50
         `}
+        onClick={onClick}
       >
         {text}
       </button>
