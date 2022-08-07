@@ -11,7 +11,7 @@ export const Hero = () => (
         links are performing.
       </p>
 
-      <Button rounded type={ButtonType.PRIMARY} text="Get Started" />
+      <Button rounded buttonType={ButtonType.PRIMARY} text="Get Started" />
     </div>
     <img
       src={Illustration}

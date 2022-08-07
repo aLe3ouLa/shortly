@@ -19,11 +19,11 @@ export const Navbar = () => {
         <Button
           rounded
           text="Login"
-          type={ButtonType.SECONDARY}
+          buttonType={ButtonType.SECONDARY}
           marginRight
           ref={ref}
         />
-        <Button rounded text="Sign Up" type={ButtonType.PRIMARY} />
+        <Button rounded text="Sign Up" buttonType={ButtonType.PRIMARY} />
       </div>
     </nav>
   );

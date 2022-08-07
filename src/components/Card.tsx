@@ -10,9 +10,9 @@ export const Card = ({ icon, title, content }: CardProps) => (
       width="40"
       src={icon}
       alt={title}
-      className="bg-slate-600 p-2 rounded-full absolute -top-6 left-0"
+      className="bg-slate-600 p-2 rounded-full absolute -top-6 left-4"
     />
-    <h2 className="font-bold text-md mb-2 text-[#252329]">{title}</h2>
+    <h2 className="font-bold text-md mb-2 mt-4 text-[#252329]">{title}</h2>
     <p className="text-sm text-[#9E9AA7]">{content}</p>
   </article>
 );
