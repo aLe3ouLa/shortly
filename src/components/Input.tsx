@@ -62,7 +62,7 @@ export const Input = () => {
       </div>
 
       {data && (
-        <div className="w-full px-24 bg-[#efefef] py-12">
+        <div className="w-full px-24 bg-[#efefef] py-12 flex flex-col items-center">
           <Link
             original={data?.original_link}
             short_link={data?.full_short_link}
