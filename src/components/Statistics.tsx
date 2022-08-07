@@ -7,7 +7,7 @@ import FullyCustomizable from '../assets/icon-fully-customizable.svg';
 export const Statistics = () => (
   <section className="mt-28">
     <h2 className="font-bold text-2xl">Advanced Statistics</h2>
-    <p className="text-sm text-[#9E9AA7]">
+    <p className="text-sm text-[#9E9AA7] line">
       Track how your links are performing across the web with our advanced
       statistics dashboard
     </p>
