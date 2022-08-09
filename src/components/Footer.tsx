@@ -1,11 +1,11 @@
 import { Logo } from './Logo';
-import FB from '../assets/icon-facebook.svg';
-import Twitter from '../assets/icon-twitter.svg';
-import Pinterest from '../assets/icon-pinterest.svg';
-import IG from '../assets/icon-instagram.svg';
+import { Facebook } from './icons/Facebook';
+import { Twitter } from './icons/Twitter';
+import { Instagram } from './icons/Instagram';
+import { Pinterest } from './icons/Pinterest';
 
 export const Footer = () => (
-  <footer className="w-full p-8 bg-[#232127] text-white columns-4 gap-3">
+  <footer className="w-full px-8 py-10 bg-[#232127] text-white flex items-start justify-around">
     <Logo color="#ffffff" />
 
     <div className="text-white">
@@ -36,11 +36,11 @@ export const Footer = () => (
       </ul>
     </div>
 
-    <div>
-      <img src={FB} />
-      <img src={Twitter} />
-      <img src={Pinterest} />
-      <img src={IG} />
+    <div className="flex">
+      <Facebook />
+      <Twitter />
+      <Pinterest />
+      <Instagram />
     </div>
   </footer>
 );
