@@ -16,19 +16,13 @@ export const Input = () => {
   const [data, setData] = useState<DataType>();
 
   const onHandleClick = async () => {
-    const result = await fetch(
-      `https://api.shrtco.de/v2/shorten?url=example.org/very/long/link.html`
-    );
-
+    const result = await fetch(`https://api.shrtco.de/v2/shorten?url=${query}`);
     const data = await result.json();
 
     setData(data.result);
-
-    console.log(data);
   };
 
   const onHandleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    console.log(event.target.value);
     setQuery(event.target.value);
   };
 
